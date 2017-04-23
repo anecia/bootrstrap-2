@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: #291f1a;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.btn-blue {
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px 30px;
+}
+
+a.btn-blue:hover {
+    background-color: #fff;
+    border: 1px solid #0ed8d6;
+    color: #0ed8d6;
+}
+
+#main-nav {
+    background-color: transparent;
+    color: #fff;
+}
+#main-nav a:hover {
+	color: #0ed8d6;
+}
+#main-nav a.navbar-brand {
+    font-size: 2em;
+    font-family: 'Droid Serif', sans-serif;
+    text-transform: none;
+    color: #fff;
+}
+
+#main-menu ul li a {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+}
+
+#main-header {
+    height: 100vh;
+    background-image: url(../img/header/pictures_on_the_wall.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}
+
+#main-header .header-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+
+#main-header .header-caption h1 {
+    margin: 45px 0;
+    text-transform: uppercase;
+}
+
+#main-header .header-caption h2 {
+    font-family: 'Droid Serif', sans-serif;
+    font-size: 2.5em;
+}
+
+#services .fa {
+    color: #fff;
+    background-color: #0ed8d6;
+    border-radius: 70%;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+#services .fa:hover {
+    color: #0ed8d6;
+    background-color: #fff;
+    border: 1px solid #0ed8d6;
+}
+
+#portfolio {
+    background-color:  #f7f7f7;
+}
+#portfolio .portfolio-image-container {
+    height: 300px;
+    overflow: hidden;
+ 
+}
+#portfolio .single-portfolio-item .portfolio-image {
+    position: relative;
+    background-position: center;
+	background-size: cover;
+	height: 100%;
+	display: block;
+}
+#portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask {
+	background-color: rgba(14, 216, 214, 0.85);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all .3s;
+	cursor: pointer;
+}
+#portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask:hover {
+    opacity: 1;
+}
+#portfolio-item-1 {
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#portfolio-item-2 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+#portfolio-item-3 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+#portfolio-item-4 {
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+
+#portfolio-item-5 {
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+#portfolio-item-6 {
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
