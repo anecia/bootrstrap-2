@@ -148,3 +148,85 @@ a.btn-blue:hover {
 #portfolio-item-6 {
     background-image: url(../img/portfolio/box_of_cookies.jpg);
 }
+
+.portfolio-item-mask {
+  background-color: rgba(14, 216, 214, 0.5);
+  width: 100%;
+  height: 200px;
+  opacity: 0;
+  font-size: 4em;
+  font-weight: bold; }
+
+.portfolio-item-mask:hover {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+  left: 0;
+  right: 0; }
+
+.portfolio-item-mask-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 18%;
+  color: #fff; }
+
+#team {
+  text-align: center;
+  padding-left: 15vw;
+  padding-right: 15vw; }
+
+.team-photo img {
+  height: 150px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+  padding: 5px; }
+
+.team-photo img:hover {
+  height: 160px;
+  margin-bottom: 0;
+  padding: 0; }
+
+.team-elem {
+  margin-bottom: 2em; }
+
+
+#contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/footer/world-map.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 15vw;
+  padding-right: 15vw; }
+
+#contact-form {
+  text-align: center;
+  width: 80%;
+  left: 0;
+  right: 0;
+  margin: auto; }
+  #contact-form input, #contact-form textarea {
+    width: 100%;
+    resize: none;
+    line-height: 1.5em;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    outline: none; }
+  #contact-form input:hover, #contact-form textarea:hover {
+    border: 1px solid #777; }
+  #contact-form input:focus, #contact-form textarea:focus {
+    color: #000000;
+    background-color: lightgray;
+    border: 1px solid #777; }
+
+
+#footer {
+  margin: 20px;
+  text-align: center; }
+
+#footer a {
+  text-decoration: none;
+  color: inherit; }
+
+.footer-text {
+  padding: 0.5em; }
