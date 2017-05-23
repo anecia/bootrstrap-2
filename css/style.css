@@ -189,6 +189,26 @@ a.btn-blue:hover {
 .team-elem {
   margin-bottom: 2em; }
 
+.social-icons a {
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	line-height: 35px;
+	background-color: #222222;
+	border: 1px solid #222222;
+	border-radius: 50%;
+	font-size: 1.5em;
+	color: #fff;
+	transition: all .3s;
+	margin: 5px;
+	text-align: center;
+}
+
+#team .social-icons a:hover {
+	background-color: #0ed8d6;
+	border: 1px solid #0ed8d6;
+}
+
 
 #contact {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/footer/world-map.jpg");
