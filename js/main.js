@@ -59,7 +59,7 @@ $(document).on('click', 'a[href^="#"]', function(event){
 		event.preventDefault();
 		
 		$('html, body').animate({
-			scrollTop: $( $.attr(this, 'href') //dla tego atrybutu pobierz wartość href //
+			scrollTop: $( $.attr(this, 'href') 
 			).offset().top - 91}, 500);
 		})
 	});
