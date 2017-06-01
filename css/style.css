@@ -35,6 +35,7 @@ a.btn-blue:hover {
 #main-nav {
     background-color: transparent;
     color: #fff;
+    border:0;
 }
 #main-nav a:hover {
 	color: #0ed8d6;
@@ -85,6 +86,18 @@ a.btn-blue:hover {
     font-size: 2.5em;
 }
 
+
+#main-nav.scroll {
+	background-color: #0ed8d6;
+}
+
+#main-nav.scroll a {
+	color: #fff;
+}
+
+#main-nav.scroll a:hover {
+	color: #777777;
+}
 #services {
     padding: 20px;
     margin-top: 5px;
@@ -257,16 +270,28 @@ a.btn-blue:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/footer/world-map.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+ background-position: center;
   padding-left: 15vw;
   padding-right: 15vw;
-  padding-bottom: 100px;}
+  padding-bottom: 100px;
+}
+
+
+#contact h2, #contact p {
+	color: #fff;
+     padding-bottom: 20px;
+    text-align: center;
+}
+
 
 #contact-form {
   text-align: center;
   width: 80%;
   left: 0;
   right: 0;
-  margin: auto; }
+  margin: auto;
+}
+
   #contact-form input, #contact-form textarea {
     width: 100%;
     resize: none;
@@ -275,13 +300,16 @@ a.btn-blue:hover {
     margin: 10px;
     border-radius: 5px;
     border: 1px solid #fff;
-    outline: none; }
+    outline: none; 
+}
   #contact-form input:hover, #contact-form textarea:hover {
-    border: 1px solid #777; }
+    border: 1px solid #777; 
+}
   #contact-form input:focus, #contact-form textarea:focus {
     color: #000000;
     background-color: lightgray;
-    border: 1px solid #777; }
+    border: 1px solid #777;
+}
 
 
 #footer {
